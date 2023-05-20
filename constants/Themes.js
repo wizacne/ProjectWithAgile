@@ -1,11 +1,40 @@
 
 
 export const COLOR = {
-    primary: '#FF5E00',
-    title: '#7F4E1D',
-    description: '#7F4E1D',
-    buttonDisabled: '#DDDDDD',
-    iconNotFocused: '#6D3805'
+    primary: '#0192d3',
+    secondary: '#f0efed',
+    background: '#ffffff',
+    background2: '#2ea3d6',
+
+
+    title: '#4daad2',
+    black: '#000',
+    white: 'white',
+    green: '#60c5a8',
+    green2: '#039a83',
+    light: '#EEEEEE',
+    dark: '#333',
+    gray: '#CCCCCC',
+    red: '#ff2f68',
+    lightRed: '#ff4f7e',
+    darkRed: '#d9365e',
+    purple: '#8f06e4',
+    skyBlue: 'skyblue',
+    yellow: '#f8c907',
+    pink: '#ff4c98',
+    gold: 'gold',
+    line: '#282C35',
+    gray: '#CCCCCC',
+    darkGray: '#999999',
+
+    darkOverlayColor: 'rgba(0, 0, 0, 0.4)',
+    darkOverlayColor2: 'rgba(0, 0, 0, 0.8)',
+    lightOverlayColor: 'rgba(255, 255, 255, 0.6)',
+    primaryAlpha: 'rgba(99, 122, 255, 0.15)',
+    redAlpha: 'rgba(255, 84, 84, 0.15)',
+    greenAlpha: 'rgba(96, 197, 168, 0.15)',
+    purpleAlpha: 'rgba(146, 6, 228, 0.15)',
+
 }
 
 export const SIZES = {
@@ -15,20 +44,20 @@ export const SIZES = {
     h4: 20,
     h5: 18,
     h6: 16,
-
 }
 
 export const ICON = {
-    shop: require('../assets/icon/icons8-home-page-50.png'),
-    explore: require('../assets/icon/icons8-search-50.png'),
-    cart: require('../assets/icon/icons8-shopping-cart-50.png'),
-    favorites: require('../assets/icon/icons8-favorite-50.png'),
-    account: require('../assets/icon/icons8-user-50.png'),
-    visit: require('../assets/icon/icons8-visit-50.png'),
+    home: require('../asset/icon/icon_home.png'),
+    history: require('../asset/icon/icon_history.png'),
+    plus: require('../asset/icon/icon_plus.png'),
+    chart: require('../asset/icon/icon_chart.png'),
+    setting: require('../asset/icon/icon_setting.png'),
 
+    trash_bin: require('../asset/icon/icon_trash_bin.png'),
+    eye: require('../asset/icon/icon_eye.png'),
+    closed_eye: require('../asset/icon/icon_closed_eye.png'),
+    edit: require('../asset/icon/icon_edit.png'),
 
-
-    flagVietNam :  require('../assets/ImageFlag/vietnam.png'),
 }
 
 export const IMAGES = {
