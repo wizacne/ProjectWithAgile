@@ -13,7 +13,7 @@ import Home from './screens/MainTabs/Home'
 
 import Setting from './screens/MainTabs/Setting'
 import Profile from './screens/MainTabs/Profile'
-import Test from './screens/TestTab/Test'
+import Test from './screens/TestTab/TestPicker'
 import ItemTransaction from './component/ItemTransaction'
 import ItemCollect from './component/ItemCollect'
 
@@ -34,13 +34,15 @@ const StackBegin = () => {
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="ItemCollect" screenOptions={{ headerShown: false }}>
+      <Stack.Navigator initialRouteName="Test" screenOptions={{ headerShown: false }}>
 
         <Stack.Screen name="StackBegin" component={StackBegin} />
         <Stack.Screen name="Profile" component={Profile} />
         <Stack.Screen name="BottomTabs" component={BottomTabs} />
         <Stack.Screen name="ItemCollect" component={ItemCollect} />
         <Stack.Screen name="AddNew" component={AddNew} />
+        <Stack.Screen name="Test" component={Test} />
+
 
         
 
