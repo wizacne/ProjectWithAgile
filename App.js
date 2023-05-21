@@ -48,7 +48,7 @@ const App = () => {
 
       </Stack.Navigator>
     </NavigationContainer>
-    
+     // son yeu milo
   )
 }
 
