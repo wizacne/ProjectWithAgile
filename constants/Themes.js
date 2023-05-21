@@ -9,15 +9,16 @@ export const COLOR = {
 
     title: '#4daad2',
     black: '#000',
-    white: 'white',
+    white: '#ffffff',
     green: '#60c5a8',
     green2: '#039a83',
     light: '#EEEEEE',
     dark: '#333',
     gray: '#CCCCCC',
+
     red: '#ff2f68',
     lightRed: '#ff4f7e',
-    darkRed: '#d9365e',
+    darkRed: '#b61010',
     purple: '#8f06e4',
     skyBlue: 'skyblue',
     yellow: '#f8c907',
