@@ -16,6 +16,7 @@ import Profile from './screens/MainTabs/Profile'
 import Test from './screens/TestTab/TestPicker'
 import ItemTransaction from './component/ItemTransaction'
 import ItemCollect from './component/ItemCollect'
+import ChangePassword from './screens/BeginTabs/ChangePassword';
 
 
 
@@ -52,5 +53,5 @@ const App = () => {
   )
 }
 
-export default App
+export default Login
 
